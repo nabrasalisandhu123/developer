@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        *{
+            margin: 0;
+        }
+        nav{
+            line-height: 30px;
+            background-color: black;
+            width: 70%;
+            margin: auto;
+        }
+        ol{
+            text-align: center;
+            list-style: none;
+            position: relative;
+            
+            
+        }
+        ol li{
+            position: relative;
+            margin: auto;
+            color: red;
+            /* left: 100px; */
+            display: inline-block;
+            /* left: 10px; */
+            margin-left: 10px;
+
+
+        }
+        #border-right{
+            border-top: 30px solid red;
+            border-left: 30px solid transparent;
+            border-right : 30px  solid transparent;
+            /* margin-left: 141px; */
+            left: -40px;
+            position: absolute;
+
+
+        }
+        #border-left{
+            border-top: 30px solid red;
+            border-left: 30px solid transparent;
+            border-right : 30px  solid transparent;
+            /* margin-left: 141px; */
+            /* left: -30px; */
+            right: -30px;
+            position: absolute;
+
+
+        }
+        img{
+            position: absolute;
+            margin: auto;
+            height: 400px;
+            width: 100%;
+        }
+        #text{
+            display: flex;
+            color: cyan;
+            position: absolute;
+            margin: auto;
+            top: 400px;
+        }
+        #text2{
+            display: flex;
+            color: cyan;
+            position: absolute;
+            margin: auto;
+            top: 400px;
+            left: 200px;
+        }
+           #text3{
+               display: flex;
+            color: cyan;
+            position: absolute;
+            margin: auto;
+            top: 400px;
+            left: 400px;
+        }
+        #text4{
+               display: flex;
+            color: red;
+            position: absolute;
+            margin: auto;
+            top: 40px;
+            left: 230px;
+            font-size: 30px;
+        }
+        #searchbar{
+            display: flex;
+            /* color: red; */
+            height: 20px;
+            width: 50%;
+            background-color: aliceblue;
+            position: absolute;
+            margin: auto;
+            top: 80px;
+            left: 130px
+        }
+        #box{
+            /* font-size: 30px; */
+            display: flex;
+            /* color: red; */
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            position: absolute;
+            margin: auto;
+            top: 80px;
+            left: 400px
+        }
+        #textbig{
+               display: flex;
+            color: red;
+            position: absolute;
+            margin: auto;
+            top: 140px;
+            left: 200px;
+            font-size: 30px;
+        }
+        button{
+            display: flex;
+            color: red;
+            position: absolute;
+            margin: auto;
+            top: 300px;
+            left: 230px;
+            font-size: 10px;
+        }
+        input{
+            width: 300px;
+            /* height: 40px; */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- <li id="back"></li> -->
+        <ol>
+            <li id="border-right"></li>
+            <li>home</li>
+            <li>about</li>
+            <li>contect</li>
+            <li>login</li>
+            <li id="border-left"></li>
+        </ol>
+    </nav>
+            <!-- <img src="monster.jpg.jpg" alt=""> -->
+            <div id="text">
+                <p>jkdsla fhdjska gdsfjllsdf </p>
+            </div>
+            <div id="text2">
+                <p>jkdsla fhdjska gdsfjllsdf </p>
+            </div>
+            <div id="text3">
+                <p>jkdsla fhdjska gdsfjllsdf </p>
+            </div>
+            <div id="text4">
+                <p>cartoon </p>
+            </div>
+            <div id="searchbar"><input placeholder="search" type="text"></div>
+            <div id="box">O</div>
+            <div id="textbig">
+                <p>Get start <br> your favourit  </p>
+            </div>
+            <button>BUY NOW</button>
+</body>
+</html>
